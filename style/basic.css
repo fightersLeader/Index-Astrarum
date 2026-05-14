@@ -1,0 +1,66 @@
+*{
+	font-family: "Oswald", "Dangrek", sans-serif;
+	text-shadow:2px 2px 4px gray;
+}
+
+body{
+	margin:0px;
+}
+
+h1{
+	font-family: "Sigmar", sans-serif;
+}
+
+p{
+	
+}
+
+a{
+	text-decoration:underline;
+}
+
+img{
+	float:left;
+}
+
+div{
+	overflow:auto;
+}
+
+#basic-topbar{
+	z-index:100;
+	width:100%;
+	height:50px;
+	padding-top:10px;
+	box-shadow:3px 3px 6px;
+	position:fixed;
+	top:0px;
+}
+
+.basic-topbarelement{
+	display:inline;
+	padding-left:2.5px;
+	padding-right:2.5px;
+}
+
+.basic-extlink{
+	color:blue;
+}
+
+.basic-with_transition{
+	transition-duration:0.2s;
+}
+
+
+button.basic-with_transition:hover {
+	transform: translateY(-6px);
+	box-shadow: 0px 4px 0px gray;
+}
+
+a.basic-extlink:visited{
+	color:purple;
+}
+
+a.basic-extlink:hover{
+	color:cyan;
+}

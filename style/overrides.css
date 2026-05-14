@@ -1,0 +1,38 @@
+/*this is the override document, you can style your document here, this is separate from the "basic" file
+as that contains some base styling options that can be useful in any setting, however ANY CHANGE IN THIS 
+DOCUMENT WILL OVERRIDE THE BASIC FILE IF IT CONFLICTS so you can change anything from here.
+
+the basic file contains some classes and ids (all of witch start with "basic-") here's the list:
+	id: topbar  | give this to a div to turn it into a navbar fixed to the top of the screen
+	class: topbarelement  | give this to any item in the topbar created with the topbar id
+	class: extlink  | give this to an anchor (<a></a>) to give it the visual behaviour of a standard web link
+	class: with_transition  | give this to any item in the following list to enable it's basic.css transition
+				\ list:button
+	more will be added
+
+if you wish to know the specific settings of the basic file just open it, it is there afterall */
+
+
+*{
+	
+}
+
+body{
+	
+}
+
+h1{
+	
+}
+
+p{
+	
+}
+
+a{
+	
+}
+
+img{
+	
+}
