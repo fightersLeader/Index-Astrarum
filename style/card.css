@@ -1,0 +1,25 @@
+/*
+	file per la classe css .card, da dare ad un elemento div per dargli le sembianze di una "carta"
+
+*/
+
+.card {
+	width: 300px;
+	padding: 16px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden; /* Taglia l'immagine se esce dai bordi arrotondati */
+	font-family: sans-serif;
+}
+
+.card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.card-body {
+	padding: 16px;
+}
+
+
