@@ -26,7 +26,7 @@ export async function loadInteractiveCards(sfilepath) {
             //aggiunge gli elementi interni
             card.innerHTML = `
             <h3>${item.title}</h3>
-            <img src="/src/img/${item.img}">
+            <img src="src/img/${item.img}">
             <p>${item.description}</p>
             `;
             // inserisce la div all'interno del contenitore trovato fuori dal loop
