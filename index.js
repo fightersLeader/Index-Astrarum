@@ -1,4 +1,4 @@
-import { loadInteractiveCards } from '/modules/loadInteractiveCards.js'
+import { loadInteractiveCards } from './modules/loadInteractiveCards.js'
 
 //si, si lo so, *respiro profondo*
 document.addEventListener("DOMContentLoaded",
