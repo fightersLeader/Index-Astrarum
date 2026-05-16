@@ -59,7 +59,7 @@ img{
 }
 
 #home-body {
-	background-image: url(../src/img/skybox.jpg);
+	background-image: url(/src/img/skybox.jpg);
 }
 
 #home-intro-holder {
