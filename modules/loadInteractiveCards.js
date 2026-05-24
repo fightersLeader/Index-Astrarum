@@ -6,14 +6,14 @@
 
 //'../src/json/home_interactive_cards.json'
 
-export async function loadInteractiveCards(sfilepath) {
+export async function loadInteractiveCards(s_file_path, scard_container_id) {
     try {
         //prende i dati dal file json, usa await perchè fetch() di base è async
-        const response = await fetch(sfilepath);
+        const response = await fetch(s_file_path);
         //parsa i dati della stringa json in un array di oggetti
         const items = await response.json();
         //trova l'elemente con l'id home-interactive-card-holder per poter inserire le card
-        const container = document.getElementById('home-interactive-card-holder');
+        const container = document.getElementById(scard_container_id);
 
         let counter = 0;
         //per ogni oggetto nell'array usa i dati per creare una card secondo la lambda sottostante
@@ -21,7 +21,7 @@ export async function loadInteractiveCards(sfilepath) {
             //crea una div che ospiterà tutti i dati
             const card = document.createElement('div');
             //aggiunge le classi necessarie alla corretta visualizzazione
-            card.className = 'card, home-interactive-card';
+            card.className = 'home-interactive-card';
             card.setAttribute("number", counter);
             //aggiunge gli elementi interni
             card.innerHTML = `
@@ -38,19 +38,9 @@ export async function loadInteractiveCards(sfilepath) {
             popup.className = 'popup-overlay';
             popup.setAttribute("number", counter);
             popup.innerHTML = `
-                <div class="card" style="
-                    width: 65%;
-                    height: 65%;
-                    margin-left: 13%;
-                    margin-top: 130px;
-                ">
+                <div class="card home-interactive-card-overlay-inner">
                     <h2> ${ item.overlay.title }</h2 >
-                    <pstyle="
-                        overflow-y: scroll;
-                        overflow-wrap: anywhere;
-                        width: 100%;
-                        height: 100%;
-                    ">${item.overlay.description}</p>
+                    <p class="home-interactive-card-overlay-inner-paragraph">${item.overlay.description}</p>
                 </div>
             `;
 

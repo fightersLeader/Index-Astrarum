@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<!-- 
+	DA FARE:
+		AGGIUNGERE MULTIPLE CATEGORIE DI OGGETTI
+		AGGIUNGERE UN FILE JSON PER CATEGORIA
+		NEI FILE JSON IMPOSTARE IL CONTENUTO DEI CAMPI CHE NECESSITANO DI QUERY API COME LA QUERY STESSA
+		AGGIUNGERE SCRIPT CHE LEGGE LE QUERY IN UN OGGETTO HTML, LE ESEGUE E METTE IL RISULTATO NEL CAMPO
+		
+
+
+	
+-->
+
+<html>
+<head>
+	<title>my website</title>
+	<meta charset="UTF-8">
+
+	<script type="module" src="astrarium.js"></script>
+
+	<!-- link necessari ad utilizzare determinati font presi da google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dangrek&family=Oswald:wght@200..700&family=Sigmar&display=swap" rel="stylesheet">
+	
+	
+	<link rel="stylesheet" href="style\basic.css">
+	<link rel="stylesheet" href="style\overrides.css">
+	<link rel="stylesheet" href="style\card.css">
+	<link rel="stylesheet" href="style\overlay.css">
+	
+</head>
+<body>
+	<div class="card" id="basic-topbar">
+	<a>test anchor 1</a>
+	<a>test anchor 2</a>
+	</div>
+
+
+
+	<div class="card" id="astrarium-interactive-card-category-container-holder">
+		<div class="card astrarium-interactive-card-category-container">
+			<h3>Titolo categoria</h3>
+			<div class="card astrarium-interactive-card-category-container-inner" id="astrarium-category-tmp-card-holder">
+				<!-- vuoto, verrà riempito da uno script -->
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="card" id="astrarium-api-credit-container">
+		<h3>Titolo credit api</h3>
+		<p>Questo è un testo di esempio dentro la card.</p>
+	</div>
+</body>
+</html>
