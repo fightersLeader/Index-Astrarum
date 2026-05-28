@@ -1,38 +1,38 @@
 [
   {
-    "title": "test title",
-    "description": "test description",
-    "img": "babyElephant.png",
+    "title": "Janus",
+    "description": "La stella a due faccie",
+    "img": "janus.jpg",
     "overlay": {
-      "title": "test title",
-      "description": "test description"
+      "title": "Janus",
+      "description": "<img src=\"src/img/janus.jpg\">Ufficialmente catalogata come ZTF J2033+3229, la nana bianca soprannominata Giano (Janus) è uno degli oggetti più insoliti del cosmo. Situata a 1.300 anni luce di distanza nella costellazione del Cigno, questa stella morente mostra un'asimmetria senza precedenti: un emisfero è composto interamente da idrogeno, mentre l'altro è di puro elio.Scoperta dai ricercatori del Caltech tramite la Zwicky Transient Facility, Giano ruota sul proprio asse ogni 15 minuti. Questa rapida rotazione fa sì che le sue firme chimiche cambino completamente da idrogeno a elio in un ciclo regolare e temporizzato.Gli astronomi ritengono che Giano sia colta nel bel mezzo di una transizione evolutiva. Le nane bianche si raffreddano nel corso di miliardi di anni, spingendo lo strato di elio sottostante a ribollire e ad assorbire l'involucro esterno di idrogeno.Tuttavia, la netta divisione di Giano richiede un campo magnetico asimmetrico. Su un emisfero, un campo magnetico più forte blocca la convezione, intrappolando il leggero strato di idrogeno in superficie. Sul lato opposto, un campo più debole permette all'elio turbolento di erompere, mascherando l'idrogeno. Giano dimostra così come le forze magnetiche possano alterare radicalmente l'evoluzione stellare."
     }
   },
   {
-    "title": "test title",
-    "description": "test description",
-    "img": "babyElephant.png",
+    "title": "Swift J1818.0−1607",
+    "description": "La prima magnetar-pulsar",
+    "img": "SwiftJ1818.0−1607.jpg",
     "overlay": {
-      "title": "test title",
-      "description": "test description"
+      "title": "Swift J1818.0−1607",
+      "description": "<img src=\"src/img/SwiftJ1818.0−1607.jpg\">Scoperta nel marzo del 2020 grazie al telescopio spaziale Neil Gehrels Swift della NASA, Swift J1818.0−1607 è una stella di neutroni ultra-densa situata a circa 16.000 anni luce da noi, nel cuore della costellazione del Sagittario. Con un'età stimata dagli astrofisici tra i 240 e i 500 anni, questo oggetto detiene ufficialmente il record per la più giovane magnetar mai individuata nel cosmo, un vero e proprio neonato su scala astronomica.La particolarità assoluta che affascina gli scienziati risiede nella sua natura di magnetar-pulsar. Si tratta di un rarissimo anello di congiunzione, un ibrido cosmico che sfuma i confini tra due diverse tipologie di stelle morte. Da un lato mostra il volto tipico della magnetar, poiché possiede un campo magnetico di un'intensità inconcepibile, milioni di miliardi di volte più forte di quello terrestre, che genera improvvisi ed energetici brillamenti di raggi X. Al tempo stesso, la stella rivela la sua identità di pulsar emettendo grandi quantità di onde radio focalizzate in fasci ben definiti. Questi fasci intersecano la Terra a ogni giro, creando un impulso regolare paragonabile a un potentissimo faro galattico.Oltre a questa straordinaria doppia identità, Swift J1818.0−1607 vanta una fisica ai limiti del possibile. La stella concentra una massa pari a due volte quella del Sole in una sfera microscopica di appena 25 chilometri di diametro. Risulta inoltre essere la magnetar con la rotazione più rapida mai registrata, arrivando a compiere un giro completo sul proprio asse ogni appena 1,36 secondi. Studiare da vicino questo eccezionale laboratorio naturale permette oggi agli astronomi di capire come i fortissimi campi magnetici evolvano, si trasformino e interagiscano con lo spazio circostante nei primi, turbolenti secoli successivi alla morte violenta di una stella massiccia."
     }
   },
   {
-    "title": "test title",
-    "description": "test description",
-    "img": "babyElephant.png",
+    "title": "R136a1",
+    "description": "Il faro dell'universo",
+    "img": "R136a1.jpg",
     "overlay": {
-      "title": "test title",
-      "description": "test description"
+      "title": "R136a1",
+      "description": "<img src=\"src/img/R136a1.jpg\">Situata a circa 160.000 anni luce di distanza nella Nebulosa Tarantola, all'interno della Grande Nube di Magellano, R136a1 detiene ufficialmente il titolo di stella più massiccia e luminosa conosciuta nell'intero universo. Questo colosso cosmico sfida le leggi della fisica stellare, splendendo con una potenza straordinaria nel cuore dell'ammasso aperto NGC 2070.Classificata come una stella di Wolf-Rayet, R136a1 possiede una massa attuale stimata tra le 200 e le 250 volte quella del Sole, sebbene alla nascita potesse pesare oltre 300 masse solari. La stella brilla con un'intensità pari a circa 4,7 milioni di volte la luminosità solare, emettendo in pochi secondi più energia di quanta il nostro Sole ne sprigioni in un intero anno. Una radiazione così violenta spinge costantemente gli strati superficiali nello spazio profondo attraverso venti stellari che viaggiano a 2.600 chilometri al secondo, causando una perdita di massa impressionante.Nonostante la sua massa titanica, R136a1 non è la stella più grande per volume. Il suo raggio misura circa 40 volte quello solare, dimensioni notevoli ma minuscole se confrontate con quelle dei supergiganti rossi. La sua incredibile densità e l'altissima temperatura superficiale, che supera i 46.000 Kelvin, la rendono una stella eccezionalmente calda e compatta rispetto ad altri colossi morenti. Gli scienziati ipotizzano che la sua vita frenetica si concluderà presto con una spettacolare supernova a instabilità di coppia, lasciando dietro di sé un massiccio buco"
     }
   },
   {
-    "title": "test title",
-    "description": "test description",
-    "img": "babyElephant.png",
+    "title": "Stevenson 2-18",
+    "description": "Il più grande colosso",
+    "img": "Stevenson 2-18.jpg",
     "overlay": {
-      "title": "test title",
-      "description": "test description"
+      "title": "Stevenson 2-18",
+      "description": "<img src=\"src/img/Stevenson 2-18.jpg\">Situata a circa 19.000 anni luce dalla Terra nella costellazione dello Scudo, Stephenson 2-18 (nota anche come St2-18) è una supergigante rossa che detiene l'incredibile primato di stella più grande conosciuta dell'universo. Questo mostro del cosmo si trova all'interno di un massiccio e giovane ammasso stellare e rappresenta una fase finale ed estremamente instabile dell'evoluzione di stelle di grandissima massa.La caratteristica che lascia senza fiato gli astronomi è il suo volume inconcepibile. Stephenson 2-18 ha un raggio stimato in circa 2.150 volte quello del Sole, il che significa che potrebbe contenere al suo interno ben 10 miliardi di Soli. Se venisse posizionata al centro del nostro sistema solare, la sua superficie incandescente si estenderebbe ben oltre l'orbita di Giove, arrivando a inghiottire persino Saturno. Tutta la materia interna compresi la Terra, Marte e la fascia principale degli asteroidi verrebbero letteralmente sommersi dalla fotosfera di questa singola stella.Nonostante le sue dimensioni titaniche, Stephenson 2-18 è una stella fredda, con una temperatura superficiale di circa 3.200 Kelvin che le conferisce il caratteristico colore rosso cupo. Questa espansione estrema la rende però molto rarefatta e instabile, tanto da sfidare i limiti teorici della fisica stellare stabiliti dai modelli attuali. Brillando con la potenza di circa 440.000 Soli, la stella sta consumando rapidamente il suo combustibile nucleare residuo. Il suo destino è già segnato: nei prossimi millenni collasserà su se stessa, morendo in una violentissima esplosione di supernova che lascerà dietro di sé un buco nero massiccio."
     }
   }
 ]

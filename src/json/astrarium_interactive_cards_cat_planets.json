@@ -1,38 +1,29 @@
-[
+﻿[
   {
-    "title": "test title",
-    "description": "test description",
-    "img": "babyElephant.png",
+    "title": "HD 189733 b",
+    "description": "Il pianeta di vetro",
+    "img": "HD189733b.jpg",
     "overlay": {
-      "title": "test title",
-      "description": "test description"
+      "title": "HD 189733 b",
+      "description": "<img src=\"src/img/HD189733b.jpg\">Situato a circa 65 anni luce dalla Terra nella costellazione della Volpetta, HD 189733 b è uno degli esopianeti più studiati e famosi della storia dell'astronomia. A prima vista, le osservazioni dei telescopi spaziali lo dipingono come un mondo affascinante e pacifico, caratterizzato da un profondo colore blu cobalto che ricorda l'aspetto del nostro pianeta visto dallo spazio. Questa sfumatura azzurra nasconde in realtà uno degli scenari meteorologici più violenti e letali mai scoperti nell'universo.Classificato come un \"Gioviano caldo\", HD 189733 b è un gigante gassoso con una massa leggermente superiore a quella di Giove. Il pianeta orbita incredibilmente vicino alla sua stella madre, impiegando appena 2,2 giorni terrestri per completare una rivoluzione. A causa di questa vicinanza estrema, il pianeta si trova in uno stato di blocco collisionale o gravitazionale, mostrando sempre la stessa faccia alla stella. Questo significa che un emisfero è condannato a un giorno eterno con temperature torride che superano i 900 gradi Celsius, mentre l'altro emisfero rimane perennemente avvolto nell'oscurità della notte.La mostruosa differenza termica tra i due lati genera dinamiche atmosferiche spaventose. Sul pianeta infuriano tempeste perenni con venti che soffiano dall'emisfero illuminato a quello buio a oltre 7.000 chilometri orari, una velocità quasi sette volte superiore a quella del suono. Inoltre, recenti analisi spettroscopiche approfondite hanno confermato che l'atmosfera è satura di particelle di silicati. Le temperature estreme fondono questi minerali e i venti impetuosi li scagliano lateralmente, dando vita a una costante e terrificante pioggia di schegge di vetro liquido che riflette la luce azzurra. Le analisi condotte dal telescopio spaziale James Webb hanno persino rilevato la presenza di acido solfidrico, il gas responsabile dell'odore di uova marce, aggiungendo un dettaglio sgradevole a questo inferno di vetro e tempeste."
     }
   },
   {
-    "title": "test title",
-    "description": "test description",
-    "img": "babyElephant.png",
+    "title": "TrES-2b",
+    "description": "Il pianeta d'ombra'",
+    "img": "TrES-2b.jpg",
     "overlay": {
-      "title": "test title",
-      "description": "test description"
+      "title": "TrES-2b",
+      "description": "<img src=\"src/img/TrES-2b.jpg\">Situato a circa 750 anni luce dalla Terra nella costellazione del Dragone, TrES-2b detiene ufficialmente il titolo di esopianeta più scuro mai scoperto dall'uomo. Questo gigante gassoso, individuato originariamente nel 2006 e successivamente studiato in dettaglio dal telescopio spaziale Kepler, sfida la nostra comprensione delle atmosfere planetarie grazie a una proprietà fisica sbalorditiva: riflette meno dell'1% della luce stellare che lo colpisce. Questo valore lo rende incredibilmente più nero del carbone, del carbone vegetale o persino della vernice acrilica nera, trasformandolo in una vera e propria ombra cosmica sospesa nello spazio.Classificato dal punto di vista strutturale come un \"Gioviano caldo\", TrES-2b possiede una massa e dimensioni leggermente superiori a quelle del nostro Giove. Il pianeta orbita a una distanza incredibilmente ravvicinata dalla sua stella madre, impiegando appena due giorni e mezzo per completare una rivoluzione. Questa spaventosa vicinanza provoca un riscaldamento termico estremo dell'atmosfera, con temperature superficiali che superano abbondantemente i 980 gradi Celsius. A causa di questo calore surreale, l'esopianeta non è in realtà visibile come un vuoto totalmente nero. Se potessimo osservarlo da vicino, noteremmo che emette un debolissimo e spettrale brivido di luce rossa, simile a una brace ardente o alle serpentine di un forno elettrico accese nel buio.La totale assenza di potere riflettente, nota in astronomia come albedo geometrico estremamente basso, deriva dall'esotica chimica della sua atmosfera. A quelle temperature torride è scientificamente impossibile la formazione di nuvole riflettenti di ammoniaca o di ghiaccio, come quelle che fanno risplendere i pianeti del nostro sistema solare. Al loro posto, l'involucro gassoso di TrES-2b è saturo di elementi chimici allo stato vaporizzato, tra cui spiccano grandi quantità di sodio, potassio e ossido di titanio gassoso. Questi specifici elementi agiscono come spugne molecolari spaventosamente efficienti, capaci di assorbire quasi la totalità della luce visibile incidente anziché disperderla nello spazio circostante, lasciando gli astrofisici ancora alla ricerca di ulteriori composti misteriosi per spiegare un'oscurità così assoluta"
     }
   },
   {
-    "title": "test title",
-    "description": "test description",
-    "img": "babyElephant.png",
+    "title": "Kepler-16b",
+    "description": "Il primo di due stelle",
+    "img": "Kepler-16b.jpg",
     "overlay": {
-      "title": "test title",
-      "description": "test description"
-    }
-  },
-  {
-    "title": "test title",
-    "description": "test description",
-    "img": "babyElephant.png",
-    "overlay": {
-      "title": "test title",
-      "description": "test description"
+      "title": "Kepler-16b",
+      "description": "<img src=\"src/img/Kepler-16b.jpg\">Situato a circa 200-245 anni luce dalla Terra nella costellazione del Cigno, Kepler-16b è una pietra miliare dell'astrofisica, celebre per essere il primo esopianeta circumbinario confermato in modo inequivocabile, ovvero il primo mondo scoperto a orbitare contemporaneamente attorno a due stelle. Questa configurazione celeste ha trasformato la fantascienza in realtà, ricordando da vicino il celebre pianeta desertico Tatooine della saga di Star Wars con il suo iconico doppio tramonto.A differenza del mondo desertico dei film, Kepler-16b è un gigante gassoso freddo e inospitale, con una massa pari a circa un terzo di quella di Giove e dimensioni simili a quelle di Saturno. Il pianeta impiega circa 229 giorni per completare un'orbita intorno alla sua coppia di stelle madri, che a loro volta danzano l'una attorno all'altra eclissandosi a vicenda ogni 41 giorni. I due astri centrali sono una nana arancione e una nana rossa, entrambe molto più piccole, fredde e meno massicce del nostro Sole.A causa della ridotta emissione termica dei suoi due soli e della sua posizione lungo il limite esterno della zona abitabile, Kepler-16b è un mondo gelido, con temperature atmosferiche che oscillano costantemente tra i 70 e i 100 gradi sotto zero. Nonostante la sua natura gassosa escluda la presenza di una superficie solida su cui camminare o la possibilità di ospitare la vita, la sua scoperta nel 2011 ha dimostrato che i sistemi planetari a doppia stella sono stabili e comuni nella Via Lattea, aprendo la strada alla ricerca di gemelli terrestri dotati di due tramonti."
     }
   }
 ]
