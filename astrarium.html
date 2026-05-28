@@ -31,27 +31,37 @@
 	<link rel="stylesheet" href="style\overlay.css">
 	
 </head>
-<body>
+<body id="astrarium-body">
 	<div class="card" id="basic-topbar">
-	<a>test anchor 1</a>
-	<a>test anchor 2</a>
-	</div>
+	<a href="index.html" class="basic-topbar-topbar-link">
+		<div class="basic-topbar-card card">Home</div>
+	</a>
+	<a href="astrarium.html" class="basic-topbar-topbar-link">
+		<div class="basic-topbar-card card">Astrarium</div>
+	</a>
+</div>
 
 
 
 	<div class="card" id="astrarium-interactive-card-category-container-holder">
 		<div class="card astrarium-interactive-card-category-container">
-			<h3>Titolo categoria</h3>
-			<div class="card astrarium-interactive-card-category-container-inner" id="astrarium-category-tmp-card-holder">
+			<h3 class="card astrarium-interactive-card-category-container-title">Stelle</h3>
+			<div class="card astrarium-interactive-card-category-container-inner" id="astrarium-category-star-card-holder">
 				<!-- vuoto, verrà riempito da uno script -->
 			</div>
 		</div>
-		
+		<div class="card astrarium-interactive-card-category-container">
+			<h3 class="card astrarium-interactive-card-category-container-title">Pianeti</h3>
+			<div class="card astrarium-interactive-card-category-container-inner" id="astrarium-category-planet-card-holder">
+			<!-- vuoto, verrà riempito da uno script -->
+		</div>
+
+</div>
 	</div>
 
 	<div class="card" id="astrarium-api-credit-container">
-		<h3>Titolo credit api</h3>
-		<p>Questo è un testo di esempio dentro la card.</p>
+		<h3 class="astrarium-api-credit-container-inner card">Titolo credit api</h3>
+		<p class="astrarium-api-credit-container-inner card">Questo è un testo di esempio dentro la card</p>
 	</div>
 </body>
 </html>

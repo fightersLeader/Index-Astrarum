@@ -56,7 +56,21 @@ img{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	gap:40px;
+	gap: 40px;
+	background-color: rgb(142 12 217 / 35%);
+	border: 2px solid rgb(58 0 255 / 39%);
+}
+
+.basic-topbar-topbar-link {
+	text-decoration:none;
+	background-color: unset;
+}
+
+.basic-topbar-card {
+	background-color: rgb(2 53 177 / 48%);
+	border: 2px solid rgb(50 34 219);
+	text-shadow: none;
+	color: white;
 }
 
 #home-body {
@@ -67,22 +81,36 @@ img{
 	width: 85%;
 	height: 300px;
 	margin-top: 100px;
+	background-color: rgba(78,63,240,0.25);
+	border: 2px solid rgb(83, 74, 183);
+}
+
+#home-intro-holder-contents {
+	background-color: unset;
+	color: white;
+	text-shadow: none;
+	font-size: 17px;
+}
+
+#home-intro-holder-title {
+	background-color: unset;
+	color: white;
+	text-shadow: none;
+	font-size: 27px;
 }
 
 #home-interactive-card-holder {
-	background-color: green;
-	padding:20px;
-
+	background-color: rgb(26, 21, 80);
+	padding: 20px;
 	width: 85%;
 	height: auto;
 	margin-top: 50px;
-
-
 	display: grid;
+	border: 3px solid rgb(83, 74, 183);
 	/*	crea automaticamente più colonne possibili di larghezza che varia 
 		da 200px al minimo a 15% dello schermo al massimo
 	*/
-	grid-template-columns: repeat(auto-fit, minmax(150px, 23.5%)); 
+	grid-template-columns: repeat(auto-fit, minmax(150px, 23.5%));
 	gap: 20px; /* spazio tra le righe e colonne */
 }
 
@@ -90,6 +118,16 @@ img{
 	transition-duration: 0.2s;
 	border-radius: 16px;
 	padding: 8px;
+	background-color: rgb(46, 41, 160);
+	box-shadow: 0 4px 8px rgb(89 40 255 / 68%) ;
+}
+
+.home-interactive-card-content {
+	color: white;
+	text-shadow: none;
+	text-align: center;
+	border-radius: 10px;
+	background-color: rgb(111 20 163);
 }
 
 .home-interactive-card:hover {
@@ -98,7 +136,7 @@ img{
 	quanto ci mette a salire e scendere*/
 	transition-duration: 0.2s;
 	transform: translateY(-6px);
-	box-shadow: 0px 4px 0px gray;
+	box-shadow: 0px 4px 0px rgb(89 40 255 / 68%);
 	display: block;
 }
 
@@ -109,19 +147,36 @@ img{
 	height: 65%;
 	margin-left: 13%;
 	margin-top: 130px;
+	background-color: rgba(78, 63, 240, 0.25);
+	border: 2px solid rgb(83, 74, 183);
+}
+
+.home-interactive-card-overlay-inner-content {
+	color: white;
+	text-shadow: none;
+	text-align: center;
+	border-radius: 10px;
+	background-color: rgb(111 20 163);
 }
 
 .home-interactive-card-overlay-inner-paragraph {
+	text-align: justify;
 	overflow-y: scroll;
 	overflow-wrap: anywhere;
 	width: 100%;
-	height: 100%;
+	height: 86%;
+	font-size: larger;
 }
 
 
 
+#astrarium-body {
+	background-image: url(../src/img/skybox.jpg);
+}
+
 #astrarium-interactive-card-category-container-holder {
-	background-color: green;
+	background-color: rgb(26, 21, 80);
+	border: 3px solid rgb(83, 74, 183);
 	padding: 20px;
 	width: 85%;
 	height: auto;
@@ -129,16 +184,39 @@ img{
 }
 
 #astrarium-api-credit-container {
+	display: flex;
 	width: 86%;
 	height: 100px;
+	margin-top: 20px;
+	background-color: rgba(78,63,240,0.25);
+	border: 2px solid rgb(83, 74, 183);
+}
+
+.astrarium-api-credit-container-inner {
+	background-color: rgb(89 40 255 / 68%);
+	border: 3px solid rgb(89 40 255 / 68%);
+	color: white;
+	margin: 5px;
+	width: fit-content;
+	height: 22px;
 	margin-top: 20px;
 }
 
 .astrarium-interactive-card-category-container {
+	background-color: rgb(255 0 160 / 24%);
+	margin: 30px;
+}
+
+.astrarium-interactive-card-category-container-title {
+	text-align: center;
+	color: white;
+	background-color: rgb(0 111 255 / 20%);
+	border: 3px solid rgb(83, 74, 183);
 }
 
 .astrarium-interactive-card-category-container-inner {
-	background-color: red;
+	background-color: rgb(0 111 255 / 20%);
+	border: 3px solid rgb(83, 74, 183);
 	padding: 20px;
 	width: 95%;
 	height: auto;

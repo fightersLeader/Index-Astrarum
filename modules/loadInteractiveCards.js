@@ -4,14 +4,14 @@
 //crea le card nella home a partire dai dati nel file home_interactive_cards.json
 //questo serve per semplificare l'aggiunta di nuove card per me, si potrebbe omettere
 
-//'../src/json/home_interactive_cards.json'
 
-export async function loadInteractiveCards(s_file_path, scard_container_id) {
+
+export async function loadInteractiveCards(json_promise, scard_container_id) {
     try {
         //prende i dati dal file json, usa await perchè fetch() di base è async
-        const response = await fetch(s_file_path);
+        //const response = await fetch(s_file_path);
         //parsa i dati della stringa json in un array di oggetti
-        const items = await response.json();
+        const items = await json_promise;
         //trova l'elemente con l'id home-interactive-card-holder per poter inserire le card
         const container = document.getElementById(scard_container_id);
 
@@ -25,13 +25,13 @@ export async function loadInteractiveCards(s_file_path, scard_container_id) {
             card.setAttribute("number", counter);
             //aggiunge gli elementi interni
             card.innerHTML = `
-            <h3>${item.title}</h3>
-            <img src="src/img/${item.img}">
-            <p>${item.description}</p>
+            <h3 class="home-interactive-card-content">${item.title}</h3>
+            <img class="home-interactive-card-content" src="src/img/${item.img}">
+            <p class="home-interactive-card-content">${item.description}</p>
             `;
             // inserisce la div all'interno del contenitore trovato fuori dal loop
             container.appendChild(card);
-            
+
 
             // crea l'elemento popup associato alla card corrente
             const popup = document.createElement('div');
@@ -39,8 +39,8 @@ export async function loadInteractiveCards(s_file_path, scard_container_id) {
             popup.setAttribute("number", counter);
             popup.innerHTML = `
                 <div class="card home-interactive-card-overlay-inner">
-                    <h2> ${ item.overlay.title }</h2 >
-                    <p class="home-interactive-card-overlay-inner-paragraph">${item.overlay.description}</p>
+                    <h2 class="home-interactive-card-overlay-inner-content"> ${item.overlay.title}</h2 >
+                    <p class="home-interactive-card-overlay-inner-paragraph home-interactive-card-overlay-inner-content">${item.overlay.description}</p>
                 </div>
             `;
 
@@ -92,4 +92,3 @@ function makeOverlayClickCallback(data) {
 
 }
 
-//document.addEventListener('DOMContentLoaded', loadHomeCards);
