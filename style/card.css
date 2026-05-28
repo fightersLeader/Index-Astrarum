@@ -1,6 +1,8 @@
 /*
-	file per la classe css .card, da dare ad un elemento div per dargli le sembianze di una "carta"
-
+	file per la classe css .card
+	data ad un elemento per dargli le sembianze di una "carta"
+	classi piazzate in un file separato da overrides
+	perchè non ne devono essere modificate le proprietà di default
 */
 
 .card {
